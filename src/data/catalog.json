@@ -1,0 +1,2341 @@
+{
+  "categories": [
+    {
+      "slug": "tecidotejadilho",
+      "name": {
+        "pt": "Tecidos para Tejadilho",
+        "en": "Headliner Fabrics"
+      },
+      "image": "/images/categories/tecidotejadilho.jpg",
+      "order": 1
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecidos Tejadilho Bielástico",
+        "en": "Two-Way Stretch Headliner Fabrics"
+      },
+      "image": "/images/categories/tecido-tejadilho-bielastico.png",
+      "order": 2
+    },
+    {
+      "slug": "pasha",
+      "name": {
+        "pt": "Pasha",
+        "en": "Pasha"
+      },
+      "image": "/images/categories/pasha.png",
+      "order": 3
+    },
+    {
+      "slug": "alcantara",
+      "name": {
+        "pt": "Alcantara",
+        "en": "Alcantara"
+      },
+      "image": "/images/categories/alcantara.png",
+      "order": 4
+    },
+    {
+      "slug": "napas",
+      "name": {
+        "pt": "Napas",
+        "en": "Automotive Vinyl"
+      },
+      "image": "/images/categories/napas.jpg",
+      "order": 5
+    },
+    {
+      "slug": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética",
+        "en": "Synthetic Leather"
+      },
+      "image": "/images/categories/pele-sintetica.jpg",
+      "order": 6
+    },
+    {
+      "slug": "tecidos_bancos",
+      "name": {
+        "pt": "Tecidos para Bancos",
+        "en": "Seat Fabrics"
+      },
+      "image": "/images/categories/tecidos_bancos.png",
+      "order": 7
+    },
+    {
+      "slug": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecidos de Portas",
+        "en": "Door Fabrics"
+      },
+      "image": "/images/categories/tecidos-de-portas.png",
+      "order": 8
+    },
+    {
+      "slug": "espumas",
+      "name": {
+        "pt": "Espumas",
+        "en": "Foams"
+      },
+      "image": "/images/categories/espumas.jpg",
+      "order": 9
+    },
+    {
+      "slug": "alcatifas",
+      "name": {
+        "pt": "Alcatifas",
+        "en": "Carpets"
+      },
+      "image": "/images/categories/alcatifas.jpg",
+      "order": 10
+    },
+    {
+      "slug": "cola",
+      "name": {
+        "pt": "Cola",
+        "en": "Adhesive"
+      },
+      "image": "/images/categories/cola.jpg",
+      "order": 11
+    }
+  ],
+  "products": [
+    {
+      "slug": "alcatifa-antracite",
+      "category": "alcatifas",
+      "name": {
+        "pt": "Alcatifa Antracite",
+        "en": "Carpet Anthracite"
+      },
+      "description": {
+        "pt": "Alcatifa para forrar carrinhas. Altura de 2mts.",
+        "en": "Carpet for van lining, 2 m wide."
+      },
+      "image": "/images/products/alcatifa-antracite.webp"
+    },
+    {
+      "slug": "alcatifa-preto",
+      "category": "alcatifas",
+      "name": {
+        "pt": "Alcatifa Preto",
+        "en": "Carpet Black"
+      },
+      "description": {
+        "pt": "Alcatifa para forrar carrinhas. Altura de 2mts.",
+        "en": "Carpet for van lining, 2 m wide."
+      },
+      "image": "/images/products/alcatifa-preto.webp"
+    },
+    {
+      "slug": "espuma-3-m-m-com-tricot",
+      "category": "espumas",
+      "name": {
+        "pt": "Espuma 3 M/M com tricot",
+        "en": "Foam 3 mm with Knit Backing"
+      },
+      "description": {
+        "pt": "Espuma de 3 M/M com tricot",
+        "en": "3 mm foam with knit backing."
+      },
+      "image": "/images/products/espuma-3-m-m-com-tricot.webp"
+    },
+    {
+      "slug": "espuma-5-m-m-com-tricot",
+      "category": "espumas",
+      "name": {
+        "pt": "Espuma 5 M/M com tricot",
+        "en": "Foam 5 mm with Knit Backing"
+      },
+      "description": {
+        "pt": "Espuma de 5 M/M com tricot",
+        "en": "5 mm foam with knit backing."
+      },
+      "image": "/images/products/espuma-5-m-m-com-tricot.webp"
+    },
+    {
+      "slug": "espuma-10-m-m-com-tricot",
+      "category": "espumas",
+      "name": {
+        "pt": "Espuma 10 M/M com tricot",
+        "en": "Foam 10 mm with Knit Backing"
+      },
+      "description": {
+        "pt": "Espuma de 3 M/M com tricot",
+        "en": "3 mm foam with knit backing."
+      },
+      "image": "/images/products/espuma-10-m-m-com-tricot.webp"
+    },
+    {
+      "slug": "lata-cola",
+      "category": "cola",
+      "name": {
+        "pt": "Lata cola de 12,5 Litros",
+        "en": "Lata cola de 12,5 Litros"
+      },
+      "description": {
+        "pt": "Cola de Pistola, ideal para tejadilhos.",
+        "en": "Spray-gun adhesive, ideal for headliners."
+      },
+      "image": "/images/products/lata-cola.webp"
+    },
+    {
+      "slug": "napa-a1",
+      "category": "napas",
+      "name": {
+        "pt": "Napa A1",
+        "en": "Vinyl A1"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-a1.webp"
+    },
+    {
+      "slug": "napa-a2",
+      "category": "napas",
+      "name": {
+        "pt": "Napa A2",
+        "en": "Vinyl A2"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-a2.webp"
+    },
+    {
+      "slug": "napa-e1",
+      "category": "napas",
+      "name": {
+        "pt": "Napa E1",
+        "en": "Vinyl E1"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-e1.webp"
+    },
+    {
+      "slug": "napa-e2",
+      "category": "napas",
+      "name": {
+        "pt": "Napa E2",
+        "en": "Vinyl E2"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-e2.webp"
+    },
+    {
+      "slug": "napa-e3",
+      "category": "napas",
+      "name": {
+        "pt": "Napa E3",
+        "en": "Vinyl E3"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-e3.webp"
+    },
+    {
+      "slug": "napa-e4",
+      "category": "napas",
+      "name": {
+        "pt": "Napa E4",
+        "en": "Vinyl E4"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-e4.webp"
+    },
+    {
+      "slug": "napa-m8",
+      "category": "napas",
+      "name": {
+        "pt": "Napa M8",
+        "en": "Vinyl M8"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-m8.webp"
+    },
+    {
+      "slug": "napa-m11",
+      "category": "napas",
+      "name": {
+        "pt": "Napa M11",
+        "en": "Vinyl M11"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-m11.webp"
+    },
+    {
+      "slug": "napa-z1",
+      "category": "napas",
+      "name": {
+        "pt": "Napa Z1",
+        "en": "Vinyl Z1"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-z1.webp"
+    },
+    {
+      "slug": "napa-z2",
+      "category": "napas",
+      "name": {
+        "pt": "Napa Z2",
+        "en": "Vinyl Z2"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-z2.webp"
+    },
+    {
+      "slug": "napa-z3",
+      "category": "napas",
+      "name": {
+        "pt": "Napa Z3",
+        "en": "Vinyl Z3"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-z3.webp"
+    },
+    {
+      "slug": "napa-z4",
+      "category": "napas",
+      "name": {
+        "pt": "Napa Z4",
+        "en": "Vinyl Z4"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-z4.webp"
+    },
+    {
+      "slug": "napa-z5",
+      "category": "napas",
+      "name": {
+        "pt": "Napa Z5",
+        "en": "Vinyl Z5"
+      },
+      "description": {
+        "pt": "PVC automóvel com largura de 1.40.",
+        "en": "Automotive PVC vinyl, 1.40 m wide."
+      },
+      "image": "/images/products/napa-z5.webp"
+    },
+    {
+      "slug": "pasha-amarelo",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Amarelo",
+        "en": "Pasha Yellow"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-amarelo.webp"
+    },
+    {
+      "slug": "pasha-antracite",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Antracite",
+        "en": "Pasha Anthracite"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-antracite.webp"
+    },
+    {
+      "slug": "pasha-castanho",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Castanho",
+        "en": "Pasha Brown"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-castanho.webp"
+    },
+    {
+      "slug": "pasha-grafito",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Grafito",
+        "en": "Pasha Graphite"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-grafito.webp"
+    },
+    {
+      "slug": "pasha-marinho",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Marinho",
+        "en": "Pasha Navy"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-marinho.webp"
+    },
+    {
+      "slug": "pasha-preto",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Preto",
+        "en": "Pasha Black"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-preto.webp"
+    },
+    {
+      "slug": "pasha-vermelho",
+      "category": "pasha",
+      "name": {
+        "pt": "Pasha Vermelho",
+        "en": "Pasha Red"
+      },
+      "description": {
+        "pt": "Tecido com o toque aveludado, com bastante elasticidade, ideal para tejadilhos de automóvel a imitar Alcantara.",
+        "en": "Velvet-touch fabric with high elasticity, ideal for car headliners as an Alcantara alternative."
+      },
+      "image": "/images/products/pasha-vermelho.webp"
+    },
+    {
+      "slug": "pele-sintetica-1001-negro",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1001-NEGRO",
+        "en": "Synthetic Leather 1001-NEGRO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1001-negro.webp"
+    },
+    {
+      "slug": "pele-sintetica-1002-grafito",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1002-GRAFITO",
+        "en": "Synthetic Leather 1002-GRAFITO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1002-grafito.webp"
+    },
+    {
+      "slug": "pele-sintetica-1003-piedra",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1003-PIEDRA",
+        "en": "Synthetic Leather 1003-PIEDRA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1003-piedra.webp"
+    },
+    {
+      "slug": "pele-sintetica-1004-alpaca",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1004-ALPACA",
+        "en": "Synthetic Leather 1004-ALPACA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1004-alpaca.webp"
+    },
+    {
+      "slug": "pele-sintetica-1005-perla",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1005-PERLA",
+        "en": "Synthetic Leather 1005-PERLA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1005-perla.webp"
+    },
+    {
+      "slug": "pele-sintetica-1007-burdeos",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1007-BURDEOS",
+        "en": "Synthetic Leather 1007-BURDEOS"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1007-burdeos.webp"
+    },
+    {
+      "slug": "pele-sintetica-1008-blanco",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1008-BLANCO",
+        "en": "Synthetic Leather 1008-BLANCO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1008-blanco.webp"
+    },
+    {
+      "slug": "pele-sintetica-1009-magnolia",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1009-MAGNOLIA",
+        "en": "Synthetic Leather 1009-MAGNOLIA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1009-magnolia.webp"
+    },
+    {
+      "slug": "pele-sintetica-1010-seda",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1010-SEDA",
+        "en": "Synthetic Leather 1010-SEDA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1010-seda.webp"
+    },
+    {
+      "slug": "pele-sintetica-1011-veneto",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1011-VENETO",
+        "en": "Synthetic Leather 1011-VENETO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1011-veneto.webp"
+    },
+    {
+      "slug": "pele-sintetica-1012-arena",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1012-ARENA",
+        "en": "Synthetic Leather 1012-ARENA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1012-arena.webp"
+    },
+    {
+      "slug": "pele-sintetica-1014-terracota",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1014-TERRACOTA",
+        "en": "Synthetic Leather 1014-TERRACOTA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1014-terracota.webp"
+    },
+    {
+      "slug": "pele-sintetica-1015-wengue",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1015-WENGUE",
+        "en": "Synthetic Leather 1015-WENGUE"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1015-wengue.webp"
+    },
+    {
+      "slug": "pele-sintetica-1016-guijarro",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1016-GUIJARRO",
+        "en": "Synthetic Leather 1016-GUIJARRO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1016-guijarro.webp"
+    },
+    {
+      "slug": "pele-sintetica-1017-antracita",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1017-ANTRACITA",
+        "en": "Synthetic Leather 1017-ANTRACITA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1017-antracita.webp"
+    },
+    {
+      "slug": "pele-sintetica-1018-orion",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1018-ORION",
+        "en": "Synthetic Leather 1018-ORION"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1018-orion.webp"
+    },
+    {
+      "slug": "pele-sintetica-1019-lemans",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1019-LEMANS",
+        "en": "Synthetic Leather 1019-LEMANS"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1019-lemans.webp"
+    },
+    {
+      "slug": "pele-sintetica-1020-rosso",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1020-ROSSO",
+        "en": "Synthetic Leather 1020-ROSSO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1020-rosso.webp"
+    },
+    {
+      "slug": "pele-sintetica-1021-cashmere",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1021-CASHMERE",
+        "en": "Synthetic Leather 1021-CASHMERE"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1021-cashmere.webp"
+    },
+    {
+      "slug": "pele-sintetica-1023-caramel",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1023-CARAMEL",
+        "en": "Synthetic Leather 1023-CARAMEL"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1023-caramel.webp"
+    },
+    {
+      "slug": "pele-sintetica-1101-negro",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1101-NEGRO",
+        "en": "Synthetic Leather 1101-NEGRO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1101-negro.webp"
+    },
+    {
+      "slug": "pele-sintetica-1102-grafito",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1102-GRAFITO",
+        "en": "Synthetic Leather 1102-GRAFITO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1102-grafito.webp"
+    },
+    {
+      "slug": "pele-sintetica-1103-piedra",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1103-PIEDRA",
+        "en": "Synthetic Leather 1103-PIEDRA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1103-piedra.webp"
+    },
+    {
+      "slug": "pele-sintetica-1104-alpaca",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1104-ALPACA",
+        "en": "Synthetic Leather 1104-ALPACA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1104-alpaca.webp"
+    },
+    {
+      "slug": "pele-sintetica-1105-perla",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1105-PERLA",
+        "en": "Synthetic Leather 1105-PERLA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1105-perla.webp"
+    },
+    {
+      "slug": "pele-sintetica-1106-azul-mar",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1106-AZUL-MAR",
+        "en": "Synthetic Leather 1106-AZUL-MAR"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1106-azul-mar.webp"
+    },
+    {
+      "slug": "pele-sintetica-1107-burdeos",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1107-BURDEOS",
+        "en": "Synthetic Leather 1107-BURDEOS"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1107-burdeos.webp"
+    },
+    {
+      "slug": "pele-sintetica-1108-blanco",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1108-BLANCO",
+        "en": "Synthetic Leather 1108-BLANCO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1108-blanco.webp"
+    },
+    {
+      "slug": "pele-sintetica-1109-magnolia",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1109-MAGNOLIA",
+        "en": "Synthetic Leather 1109-MAGNOLIA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1109-magnolia.webp"
+    },
+    {
+      "slug": "pele-sintetica-1110-seda",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1110-SEDA",
+        "en": "Synthetic Leather 1110-SEDA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1110-seda.webp"
+    },
+    {
+      "slug": "pele-sintetica-1111-veneto",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1111-VENETO",
+        "en": "Synthetic Leather 1111-VENETO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1111-veneto.webp"
+    },
+    {
+      "slug": "pele-sintetica-1112-arena",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1112-ARENA",
+        "en": "Synthetic Leather 1112-ARENA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1112-arena.webp"
+    },
+    {
+      "slug": "pele-sintetica-1114-terracota",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1114-TERRACOTA",
+        "en": "Synthetic Leather 1114-TERRACOTA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1114-terracota.webp"
+    },
+    {
+      "slug": "pele-sintetica-1115-wengue",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1115-WENGUE",
+        "en": "Synthetic Leather 1115-WENGUE"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1115-wengue.webp"
+    },
+    {
+      "slug": "pele-sintetica-1116-guijarro",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1116-GUIJARRO",
+        "en": "Synthetic Leather 1116-GUIJARRO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1116-guijarro.webp"
+    },
+    {
+      "slug": "pele-sintetica-1117-antracita",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1117-ANTRACITA",
+        "en": "Synthetic Leather 1117-ANTRACITA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1117-antracita.webp"
+    },
+    {
+      "slug": "pele-sintetica-1118-orion",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1118-ORION",
+        "en": "Synthetic Leather 1118-ORION"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1118-orion.webp"
+    },
+    {
+      "slug": "pele-sintetica-1119-lemans",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1119-LEMANS",
+        "en": "Synthetic Leather 1119-LEMANS"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1119-lemans.webp"
+    },
+    {
+      "slug": "pele-sintetica-1120-rosso",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1120-ROSSO",
+        "en": "Synthetic Leather 1120-ROSSO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1120-rosso.webp"
+    },
+    {
+      "slug": "pele-sintetica-1121-cashmere-2",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1121-CASHMERE",
+        "en": "Synthetic Leather 1121-CASHMERE"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1121-cashmere-2.webp"
+    },
+    {
+      "slug": "pele-sintetica-1123-caramel",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética 1123-CARAMEL",
+        "en": "Synthetic Leather 1123-CARAMEL"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-1123-caramel.webp"
+    },
+    {
+      "slug": "pele-sintetica-vienna",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética VIENNA",
+        "en": "Synthetic Leather VIENNA"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-vienna.webp"
+    },
+    {
+      "slug": "pele-sintetica-vienna-perforado",
+      "category": "pele-sintetica",
+      "name": {
+        "pt": "Pele sintética VIENNA-PERFORADO",
+        "en": "Synthetic Leather VIENNA-PERFORADO"
+      },
+      "description": {
+        "pt": "Pele Sintética com 1.40 de Largura",
+        "en": "Synthetic leather, 1.40 m wide."
+      },
+      "image": "/images/products/pele-sintetica-vienna-perforado.webp"
+    },
+    {
+      "slug": "tecido-alcantara-1",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 1",
+        "en": "Tecido Alcantara 1"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-1.webp"
+    },
+    {
+      "slug": "tecido-alcantara-2",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 2",
+        "en": "Tecido Alcantara 2"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-2.webp"
+    },
+    {
+      "slug": "tecido-alcantara-3",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 3",
+        "en": "Tecido Alcantara 3"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-3.webp"
+    },
+    {
+      "slug": "tecido-alcantara-4",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 4",
+        "en": "Tecido Alcantara 4"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-4.webp"
+    },
+    {
+      "slug": "tecido-alcantara-5",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 5",
+        "en": "Tecido Alcantara 5"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-5.webp"
+    },
+    {
+      "slug": "tecido-alcantara-6",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 6",
+        "en": "Tecido Alcantara 6"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-6.webp"
+    },
+    {
+      "slug": "tecido-alcantara-7",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 7",
+        "en": "Tecido Alcantara 7"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-7.webp"
+    },
+    {
+      "slug": "tecido-alcantara-8",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 8",
+        "en": "Tecido Alcantara 8"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-8.webp"
+    },
+    {
+      "slug": "tecido-alcantara-9",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 9",
+        "en": "Tecido Alcantara 9"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-9.webp"
+    },
+    {
+      "slug": "tecido-alcantara-10",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 10",
+        "en": "Tecido Alcantara 10"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-10.webp"
+    },
+    {
+      "slug": "tecido-alcantara-11",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 11",
+        "en": "Tecido Alcantara 11"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-11.webp"
+    },
+    {
+      "slug": "tecido-alcantara-12",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 12",
+        "en": "Tecido Alcantara 12"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-12.webp"
+    },
+    {
+      "slug": "tecido-alcantara-13",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 13",
+        "en": "Tecido Alcantara 13"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-13.webp"
+    },
+    {
+      "slug": "tecido-alcantara-14",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 14",
+        "en": "Tecido Alcantara 14"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-14.webp"
+    },
+    {
+      "slug": "tecido-alcantara-15",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 15",
+        "en": "Tecido Alcantara 15"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-15.webp"
+    },
+    {
+      "slug": "tecido-alcantara-17",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 17",
+        "en": "Tecido Alcantara 17"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-17.webp"
+    },
+    {
+      "slug": "tecido-alcantara-18",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 18",
+        "en": "Tecido Alcantara 18"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-18.webp"
+    },
+    {
+      "slug": "tecido-alcantara-19",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 19",
+        "en": "Tecido Alcantara 19"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-19.webp"
+    },
+    {
+      "slug": "tecido-alcantara-20",
+      "category": "alcantara",
+      "name": {
+        "pt": "Tecido Alcantara 20",
+        "en": "Tecido Alcantara 20"
+      },
+      "description": {
+        "pt": "Alcantara 1.40 Largura",
+        "en": "Alcantara, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-alcantara-20.webp"
+    },
+    {
+      "slug": "tecido-banco-a1081",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1081",
+        "en": "Seat Fabric A1081"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1081.webp"
+    },
+    {
+      "slug": "tecido-banco-a1086",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1086",
+        "en": "Seat Fabric A1086"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1086.webp"
+    },
+    {
+      "slug": "tecido-banco-a1101",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1101",
+        "en": "Seat Fabric A1101"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1101.webp"
+    },
+    {
+      "slug": "tecido-banco-a1102",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1102",
+        "en": "Seat Fabric A1102"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1102.webp"
+    },
+    {
+      "slug": "tecido-banco-a1111",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1111",
+        "en": "Seat Fabric A1111"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1111.webp"
+    },
+    {
+      "slug": "tecido-banco-a1115",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1115",
+        "en": "Seat Fabric A1115"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1115.webp"
+    },
+    {
+      "slug": "tecido-banco-a1123",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1123",
+        "en": "Seat Fabric A1123"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1123.webp"
+    },
+    {
+      "slug": "tecido-banco-a1124",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1124",
+        "en": "Seat Fabric A1124"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1124.webp"
+    },
+    {
+      "slug": "tecido-banco-a1128",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1128",
+        "en": "Seat Fabric A1128"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1128.webp"
+    },
+    {
+      "slug": "tecido-banco-a1133",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1133",
+        "en": "Seat Fabric A1133"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1133.webp"
+    },
+    {
+      "slug": "tecido-banco-a1134",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1134",
+        "en": "Seat Fabric A1134"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1134.webp"
+    },
+    {
+      "slug": "tecido-banco-a1135",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco A1135",
+        "en": "Seat Fabric A1135"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-a1135.webp"
+    },
+    {
+      "slug": "tecido-banco-audi-s-line",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Audi S Line",
+        "en": "Seat Fabric Audi S Line"
+      },
+      "description": {
+        "pt": "Tecido Original Audi S Line com 1.50 de Largura",
+        "en": "Original Audi S Line fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-banco-audi-s-line.webp"
+    },
+    {
+      "slug": "tecido-banco-f2001",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2001",
+        "en": "Seat Fabric F2001"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2001.webp"
+    },
+    {
+      "slug": "tecido-banco-f2002",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2002",
+        "en": "Seat Fabric F2002"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2002.webp"
+    },
+    {
+      "slug": "tecido-banco-f2003",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2003",
+        "en": "Seat Fabric F2003"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2003.webp"
+    },
+    {
+      "slug": "tecido-banco-f2011",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2011",
+        "en": "Seat Fabric F2011"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2011.webp"
+    },
+    {
+      "slug": "tecido-banco-f2012",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2012",
+        "en": "Seat Fabric F2012"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2012.webp"
+    },
+    {
+      "slug": "tecido-banco-f2014",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2014",
+        "en": "Seat Fabric F2014"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2014.webp"
+    },
+    {
+      "slug": "tecido-banco-f2015",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2015",
+        "en": "Seat Fabric F2015"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2015.webp"
+    },
+    {
+      "slug": "tecido-banco-f2016",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2016",
+        "en": "Seat Fabric F2016"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2016.webp"
+    },
+    {
+      "slug": "tecido-banco-f2017",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2017",
+        "en": "Seat Fabric F2017"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2017.webp"
+    },
+    {
+      "slug": "tecido-banco-f2018",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2018",
+        "en": "Seat Fabric F2018"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2018.webp"
+    },
+    {
+      "slug": "tecido-banco-f2020",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2020",
+        "en": "Seat Fabric F2020"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2020.webp"
+    },
+    {
+      "slug": "tecido-banco-f2022",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2022",
+        "en": "Seat Fabric F2022"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2022.webp"
+    },
+    {
+      "slug": "tecido-banco-f2024",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2024",
+        "en": "Seat Fabric F2024"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2024.webp"
+    },
+    {
+      "slug": "tecido-banco-f2025",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2025",
+        "en": "Seat Fabric F2025"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2025.webp"
+    },
+    {
+      "slug": "tecido-banco-f2026",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco F2026",
+        "en": "Seat Fabric F2026"
+      },
+      "description": {
+        "pt": "Tecido com 1.80 de Largura",
+        "en": "Fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-banco-f2026.webp"
+    },
+    {
+      "slug": "tecido-banco-j1",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J1",
+        "en": "Seat Fabric J1"
+      },
+      "description": {
+        "pt": "Réplica tecido Mitsubishi Fuso com 1.40 de Largura",
+        "en": "Mitsubishi Fuso replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j1.webp"
+    },
+    {
+      "slug": "tecido-banco-j2",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J2",
+        "en": "Seat Fabric J2"
+      },
+      "description": {
+        "pt": "Réplica tecido Renault Master com 1.40 de Largura",
+        "en": "Renault Master replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j2.webp"
+    },
+    {
+      "slug": "tecido-banco-j3",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J3",
+        "en": "Seat Fabric J3"
+      },
+      "description": {
+        "pt": "Réplica tecido Mitsubishi Canter com 1.40 de Largura",
+        "en": "Mitsubishi Canter replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j3.webp"
+    },
+    {
+      "slug": "tecido-banco-j5",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J5",
+        "en": "Seat Fabric J5"
+      },
+      "description": {
+        "pt": "Réplica tecido Toyota Dyna com 1.40 de Largura",
+        "en": "Toyota Dyna replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j5.webp"
+    },
+    {
+      "slug": "tecido-banco-j6",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J6",
+        "en": "Seat Fabric J6"
+      },
+      "description": {
+        "pt": "Réplica tecido Opel/Renault com 1.40 de Largura",
+        "en": "Opel/Renault replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j6.webp"
+    },
+    {
+      "slug": "tecido-banco-j11",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J11",
+        "en": "Seat Fabric J11"
+      },
+      "description": {
+        "pt": "Réplica tecido Mercedes Vito com 1.40 de Largura",
+        "en": "Mercedes Vito replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j11.webp"
+    },
+    {
+      "slug": "tecido-banco-j16",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J16",
+        "en": "Seat Fabric J16"
+      },
+      "description": {
+        "pt": "Réplica tecido Mercedes Sprinter com 1.40 de Largura",
+        "en": "Mercedes Sprinter replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j16.webp"
+    },
+    {
+      "slug": "tecido-banco-j22",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J22",
+        "en": "Seat Fabric J22"
+      },
+      "description": {
+        "pt": "Réplica tecido Hyundai com 1.40 de Largura",
+        "en": "Hyundai replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j22.webp"
+    },
+    {
+      "slug": "tecido-banco-j23",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J23",
+        "en": "Seat Fabric J23"
+      },
+      "description": {
+        "pt": "Réplica Tecido Citroen 2cv com 1.40 de Largura",
+        "en": "Citroen 2cv replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j23.webp"
+    },
+    {
+      "slug": "tecido-banco-j28",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco J28",
+        "en": "Seat Fabric J28"
+      },
+      "description": {
+        "pt": "Réplica Tecido Opel Astra H com 1.40 de Largura",
+        "en": "Opel Astra H replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-j28.webp"
+    },
+    {
+      "slug": "tecido-banco-audi-a3-attraction",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Original Audi A3 Attraction",
+        "en": "Original Seat Fabric Audi A3 Attraction"
+      },
+      "description": {
+        "pt": "Tecido Original Audi A3 Attraction",
+        "en": "Original Audi A3 Attraction fabric."
+      },
+      "image": "/images/products/tecido-banco-audi-a3-attraction.webp"
+    },
+    {
+      "slug": "tecido-banco-original-mercedes-classe-c",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Original Mercedes Classe C",
+        "en": "Original Seat Fabric Mercedes Classe C"
+      },
+      "description": {
+        "pt": "Tecido Original Mercedes Classe C",
+        "en": "Original Mercedes Classe C fabric."
+      },
+      "image": "/images/products/tecido-banco-original-mercedes-classe-c.webp"
+    },
+    {
+      "slug": "tecido-banco-original-mercedes-classe-c-2",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Original Mercedes Classe C 2",
+        "en": "Original Seat Fabric Mercedes Classe C 2"
+      },
+      "description": {
+        "pt": "Tecido Original Mercedes Classe C",
+        "en": "Original Mercedes Classe C fabric."
+      },
+      "image": "/images/products/tecido-banco-original-mercedes-classe-c-2.webp"
+    },
+    {
+      "slug": "tecido-banco-original-porsche-928s",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Original Porsche 928S",
+        "en": "Original Seat Fabric Porsche 928S"
+      },
+      "description": {
+        "pt": "Tecido Original Porsche 928S",
+        "en": "Original Porsche 928S fabric."
+      },
+      "image": "/images/products/tecido-banco-original-porsche-928s.webp"
+    },
+    {
+      "slug": "tecido-banco-renault-gt-turbo",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco Renault GT Turbo",
+        "en": "Seat Fabric Renault GT Turbo"
+      },
+      "description": {
+        "pt": "Réplica TECIDO RENAULT GT TURBO com 1.40 de Largura",
+        "en": "RENAULT GT TURBO replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-renault-gt-turbo.webp"
+    },
+    {
+      "slug": "tecido-banco-v3",
+      "category": "tecidos_bancos",
+      "name": {
+        "pt": "Tecido Banco V3",
+        "en": "Seat Fabric V3"
+      },
+      "description": {
+        "pt": "Réplica Tecido Peugeot 205 GTI- Quartet Rouge com 1.40 de Largura",
+        "en": "Peugeot 205 GTI- Quartet Rouge replica fabric, 1.40 m wide."
+      },
+      "image": "/images/products/tecido-banco-v3.webp"
+    },
+    {
+      "slug": "tecido-portas-k1",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-1",
+        "en": "Tecido Portas K-1"
+      },
+      "description": {
+        "pt": "Tecido bege elástico para portas, o tecido em tricot.",
+        "en": "Beige stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k1.webp"
+    },
+    {
+      "slug": "tecido-portas-k-2",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-2",
+        "en": "Tecido Portas K-2"
+      },
+      "description": {
+        "pt": "Tecido acastanhado elástico para portas, o tecido em tricot.",
+        "en": "Brownish stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k-2.webp"
+    },
+    {
+      "slug": "tecido-portas-k-3",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-3",
+        "en": "Tecido Portas K-3"
+      },
+      "description": {
+        "pt": "Tecido cinzento elástico para portas, o tecido em tricot.",
+        "en": "Grey stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k-3.webp"
+    },
+    {
+      "slug": "tecido-portas-k-4",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-4",
+        "en": "Tecido Portas K-4"
+      },
+      "description": {
+        "pt": "Tecido azulado elástico para portas, o tecido em tricot.",
+        "en": "Bluish stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k-4.webp"
+    },
+    {
+      "slug": "tecido-portas-k-5",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-5",
+        "en": "Tecido Portas K-5"
+      },
+      "description": {
+        "pt": "Tecido antracite elástico para portas, o tecido em tricot.",
+        "en": "Anthracite stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k-5.webp"
+    },
+    {
+      "slug": "tecido-portas-k-6",
+      "category": "tecidos-de-portas",
+      "name": {
+        "pt": "Tecido Portas K-6",
+        "en": "Tecido Portas K-6"
+      },
+      "description": {
+        "pt": "Tecido preto elástico para portas, o tecido em tricot.",
+        "en": "Black stretch knit fabric for door panels."
+      },
+      "image": "/images/products/tecido-portas-k-6.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-1",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-1",
+        "en": "Headliner Fabric A-1"
+      },
+      "description": {
+        "pt": "Tecido Veludo Cinza Claro com 1.50 de Altura",
+        "en": "Light grey velvet fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-1.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-2",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-2",
+        "en": "Headliner Fabric A-2"
+      },
+      "description": {
+        "pt": "Tecido Veludo Bege com 1.50 de Altura",
+        "en": "Beige velvet fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-2.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-4",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-4",
+        "en": "Headliner Fabric A-4"
+      },
+      "description": {
+        "pt": "Tecido Veludo Preto com 1.50 de Altura",
+        "en": "Black velvet fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-4.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-5",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-5",
+        "en": "Headliner Fabric A-5"
+      },
+      "description": {
+        "pt": "Tecido Veludo Cinza Azulado com 1.50 de Altura",
+        "en": "Bluish grey velvet fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-5.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-6",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-6",
+        "en": "Headliner Fabric A-6"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-6.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-7",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-7",
+        "en": "Headliner Fabric A-7"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-7.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-8",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-8",
+        "en": "Headliner Fabric A-8"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-8.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-9",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-9",
+        "en": "Headliner Fabric A-9"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-9.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-10",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-10",
+        "en": "Headliner Fabric A-10"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-10.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-11",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-11",
+        "en": "Headliner Fabric A-11"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-11.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-13",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-13",
+        "en": "Headliner Fabric A-13"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-13.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-14",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-14",
+        "en": "Headliner Fabric A-14"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-14.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-15",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-15",
+        "en": "Headliner Fabric A-15"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-15.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-16",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-16",
+        "en": "Headliner Fabric A-16"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-16.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-17",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-17",
+        "en": "Headliner Fabric A-17"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-17.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-18",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-18",
+        "en": "Headliner Fabric A-18"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-18.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-19",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-19",
+        "en": "Headliner Fabric A-19"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-19.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-20",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-20",
+        "en": "Headliner Fabric A-20"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-20.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-21",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-21",
+        "en": "Headliner Fabric A-21"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.50",
+        "en": "Brushed headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-21.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-23",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-23",
+        "en": "Headliner Fabric A-23"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-23.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-24",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-24",
+        "en": "Headliner Fabric A-24"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-24.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-26",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-26",
+        "en": "Headliner Fabric A-26"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50",
+        "en": "Piqué headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-26.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-27",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-27",
+        "en": "Headliner Fabric A-27"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-27.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-28",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-28",
+        "en": "Headliner Fabric A-28"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-28.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-29",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-29",
+        "en": "Headliner Fabric A-29"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.80",
+        "en": "Brushed headliner fabric, 1.80 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-29.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-30",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-30",
+        "en": "Headliner Fabric A-30"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.50",
+        "en": "Brushed headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-30.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-a-31",
+      "category": "tecidotejadilho",
+      "name": {
+        "pt": "Tecido Tejadilho A-31",
+        "en": "Headliner Fabric A-31"
+      },
+      "description": {
+        "pt": "Tejadilho cardado largura de 1.50",
+        "en": "Brushed headliner fabric, 1.50 m wide."
+      },
+      "image": "/images/products/tecido-tejadilho-a-31.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b7",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B7",
+        "en": "Two-Way Stretch Headliner B7"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b7.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b8",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B8",
+        "en": "Two-Way Stretch Headliner B8"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b8.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b9",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B9",
+        "en": "Two-Way Stretch Headliner B9"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b9.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b9-2",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B10",
+        "en": "Two-Way Stretch Headliner B10"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b9-2.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b18",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B18",
+        "en": "Two-Way Stretch Headliner B18"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b18.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b20",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B20",
+        "en": "Two-Way Stretch Headliner B20"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b20.webp"
+    },
+    {
+      "slug": "tecido-tejadilho-bielastico-b33",
+      "category": "tecido-tejadilho-bielastico",
+      "name": {
+        "pt": "Tecido Tejadilho Bielástico B33",
+        "en": "Two-Way Stretch Headliner B33"
+      },
+      "description": {
+        "pt": "Tejadilho piquet largura de 1.50 com muita elasticidade.",
+        "en": "Piqué headliner fabric, 1.50 m wide, highly elastic."
+      },
+      "image": "/images/products/tecido-tejadilho-bielastico-b33.webp"
+    }
+  ]
+}

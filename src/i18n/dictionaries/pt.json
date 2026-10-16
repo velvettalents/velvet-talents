@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Velvet Talents – Revestimentos têxteis",
+    "description": "Tecidos para tejadilho, napas, Alcantara, pele sintética e revestimentos têxteis para a indústria automóvel, do calçado e do estofo. Esmoriz, Portugal."
+  },
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "coverings": "Revestimentos",
+    "catalogs": "Catálogos",
+    "about": "Sobre nós",
+    "contact": "Contactos",
+    "howToOrder": "Como pedir orçamento",
+    "privacy": "Política de privacidade",
+    "cookies": "Política de cookies",
+    "menu": "Menu",
+    "close": "Fechar",
+    "language": "Idioma",
+    "skipToContent": "Saltar para o conteúdo"
+  },
+  "home": {
+    "eyebrow": "Revestimentos têxteis desde 2010",
+    "heroTitle": "Empresa especializada em revestimentos para a indústria automóvel e do calçado.",
+    "heroText": "Tecidos para tejadilho, napas, Alcantara, pele sintética e tecidos para bancos e portas. Uma vasta seleção de materiais com a melhor relação preço/qualidade.",
+    "ctaProducts": "Ver produtos",
+    "ctaQuote": "Pedir orçamento",
+    "featuredTitle": "Destaques",
+    "headlinerTitle": "Tecidos para Tejadilho de Automóvel",
+    "headlinerText": "Vasta variedade de tecidos para automóveis.",
+    "headlinerCta": "Escolher tecidos",
+    "vinylTitle": "Napas para Automóveis",
+    "vinylText": "PVC automóvel com 1,40 m de largura, em várias texturas e cores.",
+    "vinylCta": "Escolher napas",
+    "categoriesTitle": "Categorias",
+    "categoriesText": "Explore a nossa gama de materiais para revestimento automóvel, calçado e estofo.",
+    "latestTitle": "Produtos em destaque",
+    "viewAll": "Ver todos os produtos",
+    "aboutTitle": "Quem é a Velvet Talents?",
+    "aboutText": "Uma empresa especializada em revestimentos têxteis para a indústria automóvel, do calçado e do estofo, com parceiros e fornecedores internacionais.",
+    "aboutCta": "Saber mais",
+    "quoteTitle": "Como pedir orçamento?",
+    "quoteText": "Peça orçamento diretamente na página de cada produto, por e-mail ou por telefone. Respondemos com o preço e todos os detalhes.",
+    "quoteCta": "Ver como funciona",
+    "servicesTitle": "Os nossos serviços",
+    "services": [
+      {
+        "title": "Variedade",
+        "text": "Ao seu dispor, uma grande variedade de produtos. Contacte-nos e faça já a sua encomenda!"
+      },
+      {
+        "title": "Inovação",
+        "text": "Sempre em busca de novos e melhores produtos para complementar a nossa oferta, esteja atento!"
+      },
+      {
+        "title": "Experiência",
+        "text": "Constituída em 2010, com uma visão ambiciosa para o seu futuro, procurando apostar na inovação."
+      }
+    ],
+    "laminationTitle": "Laminação em chama",
+    "laminationText": "Revestimos qualquer material com espuma, sem recurso a cola, para a indústria automóvel e do calçado.",
+    "laminationCta": "Conhecer o processo"
+  },
+  "products": {
+    "title": "Produtos",
+    "intro": "Selecione uma categoria ou pesquise pelo nome ou referência do produto.",
+    "searchLabel": "Pesquisar produtos",
+    "searchPlaceholder": "Pesquisar por nome ou referência",
+    "allCategories": "Todas",
+    "noResults": "Nenhum produto encontrado.",
+    "count": "{count} produtos",
+    "countOne": "1 produto",
+    "viewProduct": "Ver produto",
+    "backToCategory": "Voltar a {category}",
+    "category": "Categoria",
+    "requestQuote": "Pedir orçamento",
+    "quoteIntro": "Indique a quantidade pretendida e entraremos em contacto com o preço e a disponibilidade.",
+    "related": "Outros produtos desta categoria",
+    "priceOnRequest": "Preço sob consulta"
+  },
+  "forms": {
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telemóvel",
+    "company": "Empresa",
+    "meters": "Metros",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "optional": "opcional",
+    "send": "Enviar pedido",
+    "sendMessage": "Enviar mensagem",
+    "sending": "A enviar...",
+    "success": "Obrigado! Recebemos o seu pedido e entraremos em contacto brevemente.",
+    "error": "Não foi possível enviar o pedido. Tente novamente ou contacte-nos por e-mail ou telefone.",
+    "notConfigured": "Esta é uma versão de demonstração: o envio de formulários ainda não está ativo. Por favor contacte-nos por e-mail ou telefone.",
+    "invalid": "Verifique os campos assinalados.",
+    "required": "Campo obrigatório",
+    "invalidEmail": "E-mail inválido",
+    "consent": "Ao enviar, aceita que os seus dados sejam usados para responder ao pedido, de acordo com a nossa política de privacidade."
+  },
+  "about": {
+    "title": "Sobre nós",
+    "lead": "A Velvet Talents é uma empresa especializada em revestimentos têxteis para a indústria automóvel, do calçado e do estofo.",
+    "paragraphs": [
+      "Com base num know-how sólido, a Velvet Talents uniu esforços com todos os seus parceiros e fornecedores internacionais, com o intuito de proporcionar aos clientes uma relação preço/qualidade satisfatória.",
+      "Constituída em 2010, a empresa tem uma visão ambiciosa para o seu futuro, procurando sempre apostar na inovação, através da modernização dos procedimentos e do desenvolvimento de produtos."
+    ],
+    "valuesTitle": "Os nossos valores",
+    "values": ["Profissionalismo", "Dedicação", "Qualidade", "Determinação", "Foco", "Respeito e compromisso com os clientes"],
+    "valuesText": "São estes os valores com que a empresa se identifica."
+  },
+  "coverings": {
+    "title": "Revestimentos",
+    "subtitle": "Revestimento de tecidos em espuma",
+    "paragraphs": [
+      "Uma das especialidades da Velvet Talents é o revestimento de materiais com espuma, para a indústria do automóvel e do calçado.",
+      "O processo utilizado é a laminação em chama, que permite revestir qualquer material com espuma.",
+      "Não é utilizado nenhum tipo de cola: a superfície da espuma é derretida e usada para ligar o material."
+    ],
+    "steps": ["Espuma", "Chama", "Material laminado"],
+    "cta": "Pedir orçamento para laminação"
+  },
+  "catalogs": {
+    "title": "Catálogos",
+    "intro": "Consulte os nossos catálogos em PDF com todas as referências disponíveis.",
+    "open": "Abrir catálogo (PDF)"
+  },
+  "howToOrder": {
+    "title": "Como pedir orçamento?",
+    "steps": [
+      {
+        "title": "Peça orçamento",
+        "text": "O pedido de orçamento pode ser feito através do formulário disponível em todos os produtos da Velvet Talents, ou por e-mail ou contacto telefónico."
+      },
+      {
+        "title": "Confirme a encomenda",
+        "text": "Para efetuar uma encomenda pode entrar em contacto por telefone ou e-mail. Se enviar o seu pedido por e-mail sem orçamento, entraremos em contacto consigo para confirmar o preço do produto e todos os seus dados."
+      },
+      {
+        "title": "Levante ou receba",
+        "text": "Pode deslocar-se ao nosso armazém para levantar o material em mão, caso seja mais adequado. Se o material tiver de ser expedido, o pagamento pode ser feito à cobrança ou por transferência bancária. Os portes de envio são cobrados ao cliente."
+      }
+    ],
+    "resale": "Para encomendas de revenda é preferível entrar em contacto direto por telefone, pois estas situações são analisadas caso a caso."
+  },
+  "contact": {
+    "title": "Contactos",
+    "intro": "Contacte-nos em caso de dúvida. Respondemos o mais rapidamente possível.",
+    "address": "Morada",
+    "phone": "Telefone",
+    "phoneNote": "Chamada para rede móvel nacional",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "formTitle": "Envie-nos uma mensagem",
+    "mapTitle": "Localização da Velvet Talents no mapa"
+  },
+  "legal": {
+    "privacyTitle": "Política de privacidade",
+    "cookiesTitle": "Política de cookies"
+  },
+  "footer": {
+    "tagline": "Revestimentos têxteis para a indústria automóvel, do calçado e do estofo.",
+    "explore": "Explorar",
+    "info": "Informação",
+    "contact": "Contacto",
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "text": "A página que procura não existe ou foi movida.",
+    "back": "Voltar ao início"
+  }
+}

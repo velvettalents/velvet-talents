@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Velvet Talents – Textile Coverings",
+    "description": "Headliner fabrics, automotive vinyl, Alcantara, synthetic leather and textile coverings for the automotive, footwear and upholstery industries. Esmoriz, Portugal."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "coverings": "Lamination",
+    "catalogs": "Catalogues",
+    "about": "About us",
+    "contact": "Contact",
+    "howToOrder": "How to request a quote",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "skipToContent": "Skip to content"
+  },
+  "home": {
+    "eyebrow": "Textile coverings since 2010",
+    "heroTitle": "Specialists in coverings for the automotive and footwear industries.",
+    "heroText": "Headliner fabrics, automotive vinyl, Alcantara, synthetic leather, and seat and door fabrics. A wide selection of materials with the best value for money.",
+    "ctaProducts": "Browse products",
+    "ctaQuote": "Request a quote",
+    "featuredTitle": "Highlights",
+    "headlinerTitle": "Car Headliner Fabrics",
+    "headlinerText": "A wide variety of fabrics for cars.",
+    "headlinerCta": "Choose fabrics",
+    "vinylTitle": "Automotive Vinyl",
+    "vinylText": "Automotive PVC vinyl, 1.40 m wide, in a range of textures and colours.",
+    "vinylCta": "Choose vinyl",
+    "categoriesTitle": "Categories",
+    "categoriesText": "Explore our range of covering materials for automotive, footwear and upholstery.",
+    "latestTitle": "Featured products",
+    "viewAll": "View all products",
+    "aboutTitle": "Who is Velvet Talents?",
+    "aboutText": "A company specialising in textile coverings for the automotive, footwear and upholstery industries, working with international partners and suppliers.",
+    "aboutCta": "Learn more",
+    "quoteTitle": "How to request a quote?",
+    "quoteText": "Request a quote directly from any product page, by email or by phone. We will reply with the price and all the details.",
+    "quoteCta": "See how it works",
+    "servicesTitle": "Our services",
+    "services": [
+      {
+        "title": "Variety",
+        "text": "A wide range of products at your disposal. Get in touch and place your order today!"
+      },
+      {
+        "title": "Innovation",
+        "text": "Always looking for new and better products to complement our range. Stay tuned!"
+      },
+      {
+        "title": "Experience",
+        "text": "Founded in 2010 with an ambitious vision for the future and a constant focus on innovation."
+      }
+    ],
+    "laminationTitle": "Flame lamination",
+    "laminationText": "We laminate any material with foam, without using glue, for the automotive and footwear industries.",
+    "laminationCta": "Discover the process"
+  },
+  "products": {
+    "title": "Products",
+    "intro": "Choose a category or search by product name or reference.",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Search by name or reference",
+    "allCategories": "All",
+    "noResults": "No products found.",
+    "count": "{count} products",
+    "countOne": "1 product",
+    "viewProduct": "View product",
+    "backToCategory": "Back to {category}",
+    "category": "Category",
+    "requestQuote": "Request a quote",
+    "quoteIntro": "Tell us the quantity you need and we will get back to you with price and availability.",
+    "related": "More from this category",
+    "priceOnRequest": "Price on request"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "meters": "Metres",
+    "subject": "Subject",
+    "message": "Message",
+    "optional": "optional",
+    "send": "Send request",
+    "sendMessage": "Send message",
+    "sending": "Sending...",
+    "success": "Thank you! We have received your request and will be in touch shortly.",
+    "error": "We could not send your request. Please try again or contact us by email or phone.",
+    "notConfigured": "This is a preview version: form delivery is not active yet. Please contact us by email or phone.",
+    "invalid": "Please check the highlighted fields.",
+    "required": "Required field",
+    "invalidEmail": "Invalid email address",
+    "consent": "By submitting, you agree that your details will be used to reply to your request, in line with our privacy policy."
+  },
+  "about": {
+    "title": "About us",
+    "lead": "Velvet Talents is a company specialising in textile coverings for the automotive, footwear and upholstery industries.",
+    "paragraphs": [
+      "Building on solid know-how, Velvet Talents has joined forces with its international partners and suppliers to offer customers excellent value for money.",
+      "Founded in 2010, the company has an ambitious vision for the future and keeps investing in innovation, by modernising its processes and developing new products."
+    ],
+    "valuesTitle": "Our values",
+    "values": ["Professionalism", "Dedication", "Quality", "Determination", "Focus", "Respect and commitment to our customers"],
+    "valuesText": "These are the values the company stands for."
+  },
+  "coverings": {
+    "title": "Lamination",
+    "subtitle": "Foam lamination of fabrics",
+    "paragraphs": [
+      "One of Velvet Talents' specialities is laminating materials with foam for the automotive and footwear industries.",
+      "We use flame lamination, a process that can bond foam to any material.",
+      "No glue of any kind is used: the surface of the foam is melted and used to bond the material."
+    ],
+    "steps": ["Foam", "Flame", "Laminated material"],
+    "cta": "Request a lamination quote"
+  },
+  "catalogs": {
+    "title": "Catalogues",
+    "intro": "Browse our PDF catalogues with every available reference.",
+    "open": "Open catalogue (PDF)"
+  },
+  "howToOrder": {
+    "title": "How to request a quote?",
+    "steps": [
+      {
+        "title": "Request a quote",
+        "text": "You can request a quote using the form on every Velvet Talents product page, by email or by phone."
+      },
+      {
+        "title": "Confirm your order",
+        "text": "To place an order, contact us by phone or email. If you send your order by email without a quote, we will contact you to confirm the price and your details."
+      },
+      {
+        "title": "Collect or receive",
+        "text": "You are welcome to collect the material in person at our warehouse. If it needs to be shipped, you can pay cash on delivery or by bank transfer. Shipping costs are charged to the customer."
+      }
+    ],
+    "resale": "For resale orders, please contact us directly by phone, as these are handled case by case."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Get in touch with any questions. We will reply as soon as possible.",
+    "address": "Address",
+    "phone": "Phone",
+    "phoneNote": "Call to a Portuguese mobile network",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "formTitle": "Send us a message",
+    "mapTitle": "Velvet Talents location on the map"
+  },
+  "legal": {
+    "privacyTitle": "Privacy policy",
+    "cookiesTitle": "Cookie policy"
+  },
+  "footer": {
+    "tagline": "Textile coverings for the automotive, footwear and upholstery industries.",
+    "explore": "Explore",
+    "info": "Information",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  }
+}

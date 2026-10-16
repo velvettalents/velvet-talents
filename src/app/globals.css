@@ -1,26 +1,121 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-ink: #173441;
+  --color-ink-soft: #2c4d5c;
+  --color-ink-muted: #5d7480;
+  --color-cream: #f7f4ef;
+  --color-sand: #b59a74;
+  --color-sand-soft: #e9dfd0;
+  --color-line: #e2dcd2;
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display-serif);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-tap-highlight-color: transparent;
+    @apply font-sans;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply antialiased bg-background text-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-sand;
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-page {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+}
+
+@utility eyebrow {
+  @apply text-xs font-medium tracking-[0.2em] text-sand uppercase;
+}
+
+@utility prose-legal {
+  @apply max-w-3xl text-[15px] leading-7 text-ink-soft;
+
+  & h2 {
+    @apply mt-10 mb-3 font-display text-2xl font-semibold text-ink;
+  }
+  & h3 {
+    @apply mt-6 mb-2 text-base font-semibold text-ink;
+  }
+  & p {
+    @apply mb-4;
+  }
+  & ul,
+  & ol {
+    @apply mb-4 space-y-1 pl-5;
+  }
+  & ul {
+    @apply list-disc;
+  }
+  & ol {
+    @apply list-[lower-alpha];
+  }
+  & a {
+    @apply text-ink underline decoration-sand underline-offset-4 hover:decoration-ink;
+  }
+}
+
+/* shadcn/ui tokens mapped to the Velvet Talents palette. */
+@theme inline {
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #173441;
+  --card: #ffffff;
+  --card-foreground: #173441;
+  --popover: #ffffff;
+  --popover-foreground: #173441;
+  --primary: #173441;
+  --primary-foreground: #ffffff;
+  --secondary: #f7f4ef;
+  --secondary-foreground: #173441;
+  --muted: #f7f4ef;
+  --muted-foreground: #5d7480;
+  --accent: #f7f4ef;
+  --accent-foreground: #173441;
+  --destructive: #b42318;
+  --border: #e2dcd2;
+  --input: #e2dcd2;
+  --ring: #b59a74;
+  --radius: 0.125rem;
 }
