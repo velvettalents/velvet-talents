@@ -32,8 +32,8 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: locale === "pt" ? "pt_PT" : "en_GB",
       images: ["/brand/logo.png"],
     },
-    // Preview deployments must not be indexed.
-    robots: process.env.VERCEL_ENV === "production" ? undefined : { index: false, follow: false },
+    // Not indexable until launch (see SITE_INDEXABLE in .env.example).
+    robots: process.env.SITE_INDEXABLE === "true" ? undefined : { index: false, follow: false },
   };
 }
 

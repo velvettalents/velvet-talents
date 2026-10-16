@@ -41,4 +41,4 @@ The script reads the WooCommerce Store API, translates product names and descrip
 
 ## Environment variables
 
-See `.env.example`. Without `RESEND_API_KEY` the forms show a "preview version" notice instead of sending email. Preview deployments are served with `noindex` and a blocking `robots.txt`; only `VERCEL_ENV=production` is indexable.
+See `.env.example`. Without `RESEND_API_KEY` the forms show a "preview version" notice instead of sending email. Until launch every deployment is served with `noindex` and a blocking `robots.txt`; set `SITE_INDEXABLE=true` on the live domain to allow indexing.
