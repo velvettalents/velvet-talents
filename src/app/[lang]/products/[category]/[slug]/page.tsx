@@ -3,21 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, getLocale } from "@/i18n/dictionaries";
-import { getCategory, getProduct, getProductsByCategory, products } from "@/lib/catalog";
+import { getCatalog, getCategory, getProduct, getProductsByCategory } from "@/lib/catalog";
 import { format, paths } from "@/lib/paths";
 import { site } from "@/lib/site";
 import { InquiryForm } from "@/components/inquiry-form";
 import { ProductCard } from "@/components/product-card";
 import { ArrowLeft, MailIcon, PhoneIcon } from "@/components/icons";
+import { AvailabilityBadge } from "@/components/availability-badge";
 
 export async function generateStaticParams() {
+  const { products } = await getCatalog();
   return products.map((p) => ({ category: p.category, slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/products/[category]/[slug]">): Promise<Metadata> {
   const { category, slug } = await params;
   const locale = await getLocale();
-  const product = getProduct(category, slug);
+  const product = await getProduct(category, slug);
   if (!product) return {};
   return {
     title: product.name[locale],
@@ -30,11 +32,14 @@ export default async function ProductPage({ params }: PageProps<"/[lang]/product
   const { category: categorySlug, slug } = await params;
   const locale = await getLocale();
   const dict = await getDictionary();
-  const product = getProduct(categorySlug, slug);
-  const category = getCategory(categorySlug);
+  const [product, category, siblings] = await Promise.all([
+    getProduct(categorySlug, slug),
+    getCategory(categorySlug),
+    getProductsByCategory(categorySlug),
+  ]);
   if (!product || !category) notFound();
 
-  const related = getProductsByCategory(categorySlug)
+  const related = siblings
     .filter((p) => p.slug !== slug)
     .slice(0, 4);
 
@@ -56,16 +61,21 @@ export default async function ProductPage({ params }: PageProps<"/[lang]/product
             </Link>
             <h1 className="mt-3 font-display text-4xl leading-tight font-medium sm:text-5xl">{product.name[locale]}</h1>
             {product.description[locale] && <p className="mt-5 text-lg leading-8 text-ink-soft">{product.description[locale]}</p>}
-            <p className="mt-6 inline-block border border-line px-3 py-1.5 text-xs tracking-wide text-ink-muted uppercase">
-              {dict.products.priceOnRequest}
-            </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {product.availability && <AvailabilityBadge availability={product.availability} label={dict.products.availability[product.availability]} />}
+              <p className="inline-flex items-center border border-line px-3 py-1.5 text-xs tracking-wide text-ink-muted uppercase">
+                {dict.products.priceOnRequest}
+              </p>
+            </div>
 
             <div className="mt-10 border-t border-line pt-10">
               <h2 className="font-display text-2xl font-medium">{dict.products.requestQuote}</h2>
               <p className="mt-2 mb-6 text-sm leading-6 text-ink-soft">{dict.products.quoteIntro}</p>
               <InquiryForm
                 kind="quote"
+                locale={locale}
                 product={`${product.name.pt} (${category.name.pt})`}
+                productId={product.id}
                 labels={dict.forms}
                 submitLabel={dict.forms.send}
                 privacyHref={paths.privacy(locale)}

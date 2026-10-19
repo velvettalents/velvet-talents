@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getDictionary, getLocale } from "@/i18n/dictionaries";
-import { categories, getCategory, products } from "@/lib/catalog";
+import { getCatalog } from "@/lib/catalog";
 import { paths } from "@/lib/paths";
 import { PageHeader } from "@/components/page-header";
 import { ProductBrowser } from "@/components/product-browser";
@@ -13,12 +13,14 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ProductsPage() {
   const locale = await getLocale();
   const dict = await getDictionary();
+  const { categories, products } = await getCatalog();
+  const categoryName = new Map(categories.map((c) => [c.slug, c.name[locale]]));
 
   const items = products.map((p) => ({
     slug: p.slug,
     name: p.name[locale],
     category: p.category,
-    categoryName: getCategory(p.category)?.name[locale] ?? "",
+    categoryName: categoryName.get(p.category) ?? "",
     image: p.image,
     href: paths.product(locale, p.category, p.slug),
   }));

@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, getLocale } from "@/i18n/dictionaries";
-import { categories, getCategory, getProductsByCategory } from "@/lib/catalog";
+import { getCatalog, getCategory, getProductsByCategory } from "@/lib/catalog";
 import { format, paths } from "@/lib/paths";
 import { PageHeader } from "@/components/page-header";
 import { ProductCard } from "@/components/product-card";
 import Link from "next/link";
 
 export async function generateStaticParams() {
+  const { categories } = await getCatalog();
   return categories.map((c) => ({ category: c.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/products/[category]">): Promise<Metadata> {
   const { category: slug } = await params;
   const locale = await getLocale();
-  const category = getCategory(slug);
+  const category = await getCategory(slug);
   if (!category) return {};
   return { title: category.name[locale] };
 }
@@ -23,10 +24,9 @@ export default async function CategoryPage({ params }: PageProps<"/[lang]/produc
   const { category: slug } = await params;
   const locale = await getLocale();
   const dict = await getDictionary();
-  const category = getCategory(slug);
+  const [{ categories }, category, items] = await Promise.all([getCatalog(), getCategory(slug), getProductsByCategory(slug)]);
   if (!category) notFound();
 
-  const items = getProductsByCategory(slug);
   const intro = items.length === 1 ? dict.products.countOne : format(dict.products.count, { count: items.length });
 
   return (

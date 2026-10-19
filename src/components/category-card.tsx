@@ -8,7 +8,7 @@ export function CategoryCard({ category, locale, countLabel }: { category: Categ
   return (
     <Link href={paths.category(locale, category.slug)} className="group flex items-center gap-4 border border-line bg-white p-3 transition hover:border-ink">
       <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full bg-cream">
-        <Image src={category.image} alt="" fill sizes="64px" className="object-cover" />
+        {category.image && <Image src={category.image} alt="" fill sizes="64px" className="object-cover" />}
       </div>
       <div>
         <h3 className="font-medium">{category.name[locale]}</h3>
