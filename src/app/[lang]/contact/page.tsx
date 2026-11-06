@@ -47,7 +47,7 @@ export default async function ContactPage() {
         </address>
         <div>
           <h2 className="mb-6 font-display text-3xl font-medium">{t.formTitle}</h2>
-          <InquiryForm kind="contact" labels={dict.forms} submitLabel={dict.forms.sendMessage} privacyHref={paths.privacy(locale)} />
+          <InquiryForm kind="contact" locale={locale} labels={dict.forms} submitLabel={dict.forms.sendMessage} privacyHref={paths.privacy(locale)} />
         </div>
       </section>
       <iframe

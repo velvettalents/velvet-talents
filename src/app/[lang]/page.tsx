@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getDictionary, getLocale } from "@/i18n/dictionaries";
-import { categories, countByCategory, getProductsByCategory } from "@/lib/catalog";
+import { getCatalog } from "@/lib/catalog";
 import { format, paths } from "@/lib/paths";
 import { CategoryCard } from "@/components/category-card";
 import { ProductCard } from "@/components/product-card";
@@ -12,7 +12,9 @@ export default async function HomePage() {
   const locale = await getLocale();
   const dict = await getDictionary();
   const t = dict.home;
-  const featured = getProductsByCategory("napas").slice(0, 8);
+  const { categories, products } = await getCatalog();
+  const featured = products.filter((p) => p.featured).slice(0, 8);
+  const countByCategory = (slug: string) => products.filter((p) => p.category === slug).length;
   const countLabel = (n: number) => (n === 1 ? dict.products.countOne : format(dict.products.count, { count: n }));
 
   return (

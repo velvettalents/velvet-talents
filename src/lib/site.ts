@@ -23,10 +23,11 @@ export const site = {
   foundedYear: 2010,
 } as const;
 
-// Catalogue PDFs stay on the current WordPress host for now (about 180 MB in total).
-const pdfBase = "https://velvet-talents.com/wp-content/uploads";
+// Catalogues used before Notion is configured. PDFs stay on the current
+// WordPress host for now (about 180 MB in total).
+export const pdfBase = "https://velvet-talents.com/wp-content/uploads";
 
-export const catalogues = [
+export const localCatalogues: { id: string; cover: string; pdf: string; title: { pt: string; en: string } }[] = [
   { id: "tejadilhos", cover: "/images/catalogs/Post-Velvet-84.jpg", pdf: `${pdfBase}/2023/12/Catalogo-Velvet-Tejadilhos.pdf`, title: { pt: "Tecidos para Tejadilho", en: "Headliner Fabrics" } },
   { id: "bielastico", cover: "/images/catalogs/208.jpg", pdf: `${pdfBase}/2023/12/Catalogo-Tecido-Tejadilho-Bielastico.pdf`, title: { pt: "Tejadilho Bielástico", en: "Two-Way Stretch Headliner" } },
   { id: "alcantara", cover: "/images/catalogs/206.jpg", pdf: `${pdfBase}/2023/12/Catalogo-Velvet-Alcantara.pdf`, title: { pt: "Alcantara", en: "Alcantara" } },
@@ -37,4 +38,4 @@ export const catalogues = [
   { id: "audi", cover: "/images/catalogs/211.jpg", pdf: `${pdfBase}/2023/02/VELVET-TALENTS-AUDI.pdf`, title: { pt: "Audi", en: "Audi" } },
   { id: "bmw", cover: "/images/catalogs/212.jpg", pdf: `${pdfBase}/2023/02/VELVET-TALENTS-BMW.pdf`, title: { pt: "BMW", en: "BMW" } },
   { id: "porsche", cover: "/images/catalogs/213.jpg", pdf: `${pdfBase}/2023/02/VELVET-TALENTS-PORSCHE.pdf`, title: { pt: "Porsche", en: "Porsche" } },
-] as const;
+];

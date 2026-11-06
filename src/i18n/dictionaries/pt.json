@@ -75,7 +75,12 @@
     "requestQuote": "Pedir orçamento",
     "quoteIntro": "Indique a quantidade pretendida e entraremos em contacto com o preço e a disponibilidade.",
     "related": "Outros produtos desta categoria",
-    "priceOnRequest": "Preço sob consulta"
+    "priceOnRequest": "Preço sob consulta",
+    "availability": {
+      "available": "Disponível",
+      "onRequest": "Sob encomenda",
+      "soldOut": "Esgotado"
+    }
   },
   "forms": {
     "name": "Nome",
@@ -105,7 +110,14 @@
       "Constituída em 2010, a empresa tem uma visão ambiciosa para o seu futuro, procurando sempre apostar na inovação, através da modernização dos procedimentos e do desenvolvimento de produtos."
     ],
     "valuesTitle": "Os nossos valores",
-    "values": ["Profissionalismo", "Dedicação", "Qualidade", "Determinação", "Foco", "Respeito e compromisso com os clientes"],
+    "values": [
+      "Profissionalismo",
+      "Dedicação",
+      "Qualidade",
+      "Determinação",
+      "Foco",
+      "Respeito e compromisso com os clientes"
+    ],
     "valuesText": "São estes os valores com que a empresa se identifica."
   },
   "coverings": {
@@ -116,7 +128,11 @@
       "O processo utilizado é a laminação em chama, que permite revestir qualquer material com espuma.",
       "Não é utilizado nenhum tipo de cola: a superfície da espuma é derretida e usada para ligar o material."
     ],
-    "steps": ["Espuma", "Chama", "Material laminado"],
+    "steps": [
+      "Espuma",
+      "Chama",
+      "Material laminado"
+    ],
     "cta": "Pedir orçamento para laminação"
   },
   "catalogs": {

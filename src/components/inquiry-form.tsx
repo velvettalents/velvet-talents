@@ -32,13 +32,17 @@ const initialState: InquiryState = { status: "idle" };
 
 export function InquiryForm({
   kind,
+  locale,
   product,
+  productId,
   labels,
   submitLabel,
   privacyHref,
 }: {
   kind: "quote" | "contact";
+  locale: string;
   product?: string;
+  productId?: string;
   labels: Labels;
   submitLabel: string;
   privacyHref: string;
@@ -64,7 +68,9 @@ export function InquiryForm({
   return (
     <form action={action} className="grid gap-4 sm:grid-cols-2" noValidate>
       <input type="hidden" name="kind" value={kind} />
+      <input type="hidden" name="locale" value={locale} />
       {product && <input type="hidden" name="product" value={product} />}
+      {productId && <input type="hidden" name="productId" value={productId} />}
       <div aria-hidden className="absolute -left-[9999px]">
         <label>
           Website
