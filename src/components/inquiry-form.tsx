@@ -60,7 +60,7 @@ export function InquiryForm({
 
   const v = state.values ?? {};
 
-  const errorText = (key: "name" | "email") => {
+  const errorText = (key: "name" | "email" | "message") => {
     const code = state.errors?.[key];
     return code ? labels[code] : undefined;
   };
@@ -88,10 +88,22 @@ export function InquiryForm({
         <Field formId={formId} label={labels.subject} name="subject" defaultValue={v.subject} optional={labels.optional} className="sm:col-span-2" />
       )}
       <div className="grid gap-2 sm:col-span-2">
-        <Label htmlFor={`${formId}-message`}>
-          {labels.message} <span className="font-normal text-muted-foreground">({labels.optional})</span>
-        </Label>
-        <Textarea id={`${formId}-message`} name="message" defaultValue={v.message} rows={5} className="min-h-32 rounded-sm bg-white px-3 py-2.5" />
+        <Label htmlFor={`${formId}-message`}>{labels.message}</Label>
+        <Textarea
+          id={`${formId}-message`}
+          name="message"
+          defaultValue={v.message}
+          rows={5}
+          required
+          aria-invalid={errorText("message") ? true : undefined}
+          aria-describedby={errorText("message") ? `${formId}-message-error` : undefined}
+          className="min-h-32 rounded-sm bg-white px-3 py-2.5"
+        />
+        {errorText("message") && (
+          <span id={`${formId}-message-error`} className="text-xs text-destructive">
+            {errorText("message")}
+          </span>
+        )}
       </div>
 
       <p className="text-xs leading-5 text-ink-muted sm:col-span-2">
