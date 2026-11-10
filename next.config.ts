@@ -37,6 +37,13 @@ const nextConfig: NextConfig = {
         destination: "/pt/products/:category",
         permanent: true,
       },
+      // Catalogue PDFs and other uploads now live in Notion; old links shared
+      // by email or indexed by search engines land on the catalogues page.
+      {
+        source: "/wp-content/uploads/:path*",
+        destination: "/pt/catalogs",
+        permanent: true,
+      },
       ...catalog.products.map((p) => ({
         source: `/produto/${p.slug}{/}?`,
         destination: `/pt/products/${p.category}/${p.slug}`,
