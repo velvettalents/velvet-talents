@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 
 export type InquiryState = {
   status: "idle" | "success" | "error" | "invalid" | "not-configured";
-  errors?: Partial<Record<"name" | "email", "required" | "invalidEmail">>;
+  errors?: Partial<Record<"name" | "email" | "message", "required" | "invalidEmail">>;
   values?: Record<string, string>;
 };
 
@@ -65,6 +65,15 @@ async function saveToNotion(data: Inquiry) {
   return true;
 }
 
+// CONTACT_TO_EMAIL accepts one or more addresses separated by commas.
+function recipients() {
+  const list = (process.env.CONTACT_TO_EMAIL ?? "")
+    .split(",")
+    .map((address) => address.trim())
+    .filter(Boolean);
+  return list.length > 0 ? list : [site.email];
+}
+
 // Optional email alert so new requests are noticed without opening Notion.
 async function sendEmail(data: Inquiry) {
   const apiKey = process.env.RESEND_API_KEY;
@@ -93,7 +102,7 @@ async function sendEmail(data: Inquiry) {
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       from: process.env.CONTACT_FROM_EMAIL ?? "Velvet Talents <onboarding@resend.dev>",
-      to: [process.env.CONTACT_TO_EMAIL ?? site.email],
+      to: recipients(),
       reply_to: data.email,
       subject,
       html,
@@ -125,6 +134,7 @@ export async function sendInquiry(_prev: InquiryState, form: FormData): Promise<
   if (!data.name) errors.name = "required";
   if (!data.email) errors.email = "required";
   else if (!EMAIL_PATTERN.test(data.email)) errors.email = "invalidEmail";
+  if (!data.message) errors.message = "required";
   if (Object.keys(errors).length > 0) return { status: "invalid", errors, values: data };
 
   const results = await Promise.allSettled([saveToNotion(data), sendEmail(data)]);
