@@ -17,6 +17,12 @@ const legacyPages: Record<string, string> = {
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  // Images are already small WebP/JPEG files (Notion uploads and /public), and
+  // the Vercel Hobby image optimization quota runs out and answers 402, which
+  // breaks every image. Serve them as they are instead.
+  images: {
+    unoptimized: true,
+  },
   turbopack: {
     rules: {
       "*.css": {
